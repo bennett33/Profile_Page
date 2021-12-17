@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="nav flex justify-between align-center">
+        <div class="flex justify-between align-center">
+            <h1>Profile</h1>
+            <p>Home</p>
+            <p>My Profile</p>
+            <p>Find Connections</p>
+        </div>
+        <button>Sign Out</button>
+    </div>
+    <div class="main flex">
+        <div class="profile col-3">
+            <div class="user-card">
+                <div id="color"></div>
+                <div id="content">
+                    <img id="portrait" src="user-circle.png"/>
+                    <h1 id="name">Keanu Reeves</h1>
+                    <p id="location"><img src="map-marker.png">Seattle</p>
+                    <div id="bio">
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of Shadows and the Internet!</p>
+                    </div>
+                    <a id="edit" href="#"><img src="gear.png"><span>Edit Profile</span></a>
+                </div>       
+            </div>
+            <div class="user-card">
+                <div class="banner">
+                    <div class="header">
+                        <h1>Education</h1>
+                    </div>
+                </div>
+                <div class="boxstuff information">
+                    <p class="school">Keanu Reeves School</p>
+                    <p class="date">Dec 2019 - Mar 2020</p>
+                    <p class="skills">Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+        <div class="connections col-2">
+            <div class="user-card" id="requests">
+                <div class="banner">
+                    <div class="header">
+                        <h1><span class="bubble">20</span>Connection Requests</h1>
+                    </div>
+                </div>
+                    <div class="boxstuff">
+                        <div class="friend">
+                            <img class="friendicon" src="user-circle.png"/><p>Keanu Reeves</p><span class="options"><img class="accept" src="accept-circle.png"/><img class="decline" src="close-circle.png"/></span>
+                        </div>
+                        <div class="friend">
+                            <img class="friendicon" src="user-circle.png"/><p>Keanu Reeves</p><span class="options"><img class="accept" src="accept-circle.png"/><img class="decline" src="close-circle.png"/></span>
+                        </div>
+                        <div class="friend">
+                            <img class="friendicon" src="user-circle.png"/><p>Keanu Reeves</p><span class="options"><img class="accept" src="accept-circle.png"/><img class="decline" src="close-circle.png"/></span>
+                        </div>
+                        <div class="friend">
+                            <img class="friendicon" src="user-circle.png"/><p>Keanu Reeves</p><span class="options"><img class="accept" src="accept-circle.png"/><img class="decline" src="close-circle.png"/></span>
+                        </div>
+                    </div>
+            </div>
+            <div class="user-card" id="your-connections">
+                <div class="banner">
+                    <div class="header">
+                        <h1><span class="bubble">500+</span>Your Connections</h1>
+                    </div>
+                </div>
+                <div class="boxstuff">
+                    <div class="friend">
+                        <img class="friendicon" src="user-circle.png"/><p>Keanu Reeves</p>
+                    </div>
+                    <div class="friend">
+                        <img class="friendicon" src="user-circle.png"/><p>Keanu Reeves</p>
+                    </div>
+                    <div class="friend">
+                        <img class="friendicon" src="user-circle.png"/><p>Keanu Reeves</p>
+                    </div>
+                    <div class="friend">
+                        <img class="friendicon" src="user-circle.png"/><p>Keanu Reeves</p>
+                    </div>
+                    <div class="friend">
+                        <img class="friendicon" src="user-circle.png"/><p>Keanu Reeves</p>
+                    </div>
+                    <div class="friend">
+                        <img class="friendicon" src="user-circle.png"/><p>Keanu Reeves</p>
+                    </div>
+                </div>
+                <a class="view" href="www.google.com">View More</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    height: 5em;
+}
+
+.nav div {
+    width: 32em;
+    margin-left: 1em;
+}
+
+.nav div p:nth-child(3){
+    font-weight: bold;
+}
+
+.nav button {
+    background-color: #16A2B8;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    border: 0px;
+    margin-right: 1em;
+}
+
+.profile {
+    height: 100%;
+    width: 100%;
+    padding: 1em;
+}
+
+.user-card {
+    border: 2px solid #aaaaaa;
+    height: 400px;
+    width: 90%;
+    margin-bottom: 1em;
+    padding-bottom: 30px;
+}
+
+.connections {
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+#color {
+    background-color: #11AABB;
+    height: 150px;
+}
+
+#location {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#location img {
+    height: 20px;
+    padding-right: 10px;
+}
+
+#bio {
+    margin: 10px 0;
+}
+
+#portrait {
+    border: solid 1px #666666;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    height: 150px;
+    top: -80px;
+    background-color: #ffffff;
+    border: solid 1px #666666;
+}
+
+#content {
+    padding: 30px;
+    position: relative;
+}
+
+#name {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#edit {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+#edit img {
+    height: 20px;
+    padding-right: 10px;
+}
+
+.banner {
+    background-color: #303030;
+    padding: 10px;
+}
+
+.header {
+    color: white;
+    font-size: small;
+}
+
+.bubble {
+    background: rgb(206, 206, 206); color: rgb(0, 0, 0);
+    padding: 5px; margin-right: 6px; border-radius: 50%;
+}
+
+.friend {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+.friend p {
+    padding-left: 5px;
+}
+
+.friendicon {
+    padding: 2px;
+    height: 40px;
+}
+
+.accept {
+    padding: 2px;
+    height: 30px;
+}
+.decline {
+    padding: 2px;
+    height: 30px;
+}
+
+.boxstuff {
+    padding: 10px;
+}
+
+.options {
+    display: flex;
+    align-content: center;
+    margin-left: auto;
+}
+
+.school {
+    padding-bottom: 5px;
+    font-size: x-large;
+}
+
+.date {
+    padding-left: 12px;
+    color: rgb(168, 168, 168);
+    padding-bottom: 5px;
+}
+
+.skills {
+    padding-left: 12px;
+    font-size:medium;
+}
+
+#your-connections {
+    height: auto;
+    padding-bottom: 0px;
+}
+
+.view {
+    display: block;
+    padding: 10px;
+    padding-left: 12px;
+    border-top: 2px solid rgb(168, 168, 168);
+}
